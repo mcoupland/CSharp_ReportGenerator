@@ -1,0 +1,176 @@
+{
+	"Name": "Ticket Required Fields",
+	"SourceFolder": "X:\\AppDev Report Generator\\Export",
+	"SourceFile": "tickets_required_fields.xlsx",
+	"ExportFolder": "X:\\AppDev Report Generator\\Reports\\Excel",
+	"Enabled": true,
+	"HeaderBackground": "#FFA500",
+	"Stripe": "",
+	"Divider": "",
+	"DividerBackground": "",
+	"FirstRowIndex": 3,
+	"Fields": [		
+		{
+			"Name": "ServicePro #",
+			"ExportIndex": 1,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "Ref#"
+		},
+		{
+			"Name": "Title",
+			"ExportIndex": 2,
+			"ColumnWidth": 60,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "Title"
+		},
+		{
+			"Name": "Queue",
+			"ExportIndex": 3,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "Queue"
+		},
+		{
+			"Name": "Division",
+			"ExportIndex": 4,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "Division"
+		},
+		{
+			"Name": "Manager",
+			"ExportIndex": 5,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "dropL4Manager"
+		},
+		{
+			"Name": "BA",
+			"ExportIndex": 6,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "DropBA"
+		},
+		{
+			"Name": "Developer",
+			"ExportIndex": 7,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "DropDeveloper"
+		},
+		{
+			"Name": "Prioritization Type",
+			"ExportIndex": 8,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "Prioritization Type"
+		},
+		{
+			"Name": "Status",
+			"ExportIndex": -1,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "Status"
+		},
+		{
+			"Name": "Current Status",
+			"ExportIndex": -1,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "Current Status"
+		},
+		{
+			"Name": "Project Summary",
+			"ExportIndex": -1,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "Project Summary"
+		},
+		{
+			"Name": "Current Phase",
+			"ExportIndex": -1,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "Current Phase"
+		},
+		{
+			"Name": "Whole Ticket Percentage Complete",
+			"ExportIndex": 9,
+			"ColumnWidth": 35,
+			"DataType": "int",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "Whole Ticket Percentage Complete"
+		},
+		{
+			"Name": "Project Type",
+			"ExportIndex": -1,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "Project Type"
+		},
+		{
+			"Name": "Department",
+			"ExportIndex": -1,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "DropDepartment"
+		},
+		{
+			"Name": "Business Unit Resource",
+			"ExportIndex": -1,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "txtBusUnitResource"
+		},
+		{
+			"Name": "Project Manager",
+			"ExportIndex": -1,
+			"ColumnWidth": 35,
+			"DataType": "string",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "DropProjectManager"
+		},
+		{
+			"Name": "Time Logged",
+			"ExportIndex": -1,
+			"ColumnWidth": 35,
+			"DataType": "date",
+			"NullValue": "",
+			"HAlign": "center",
+			"ExportName": "Time Logged"
+		}
+	]
+}

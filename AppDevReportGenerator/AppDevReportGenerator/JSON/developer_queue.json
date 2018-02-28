@@ -1,0 +1,122 @@
+{
+	"Name": "Daily Developer Queue",
+	"SourceFolder": "X:\\AppDev Report Generator\\Export",
+	"SourceFile": "developer_queue.xlsx",
+	"ExportFolder": "X:\\AppDev Report Generator\\Reports\\Excel",
+	"Enabled": true,
+	"HeaderBackground": "#FFA500",
+	"Stripe": "",
+	"Divider": "",
+	"DividerBackground": "",
+	"FirstRowIndex": 3,
+  "Fields": [
+    {
+      "Name": "ServicePro #",
+      "ExportIndex": 1,
+      "ColumnWidth": 35,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Ref#"
+    },
+    {
+      "Name": "Queue",
+      "ExportIndex": 2,
+      "ColumnWidth": 35,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Queue"
+    },
+    {
+      "Name": "Title",
+      "ExportIndex": 3,
+      "ColumnWidth": 60,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Title"
+    },
+    {
+      "Name": "Current Status",
+      "ExportIndex": -1,
+      "ColumnWidth": 35,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Status"
+    },
+    {
+      "Name": "Current Phase",
+      "ExportIndex": 4,
+      "ColumnWidth": 35,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Current Phase"
+    },
+    {
+      "Name": "Release Date",
+      "ExportIndex": -1,
+      "ColumnWidth": 15,
+      "DataType": "date",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "ReleaseDateValue"
+    },
+    {
+      "Name": "Prioritization Type",
+      "ExportIndex": 5,
+      "ColumnWidth": 35,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Prioritization Type"
+    },
+    {
+      "Name": "Assigned Priority",
+      "ExportIndex": 6,
+      "ColumnWidth": 10,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "AssignedPriority"
+    },
+    {
+      "Name": "Queue Priority",
+      "ExportIndex": 7,
+      "ColumnWidth": 10,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Queue Priority"
+    },
+    {
+      "Name": "Time Logged",
+      "ExportIndex": 8,
+      "ColumnWidth": 15,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Time Logged"
+    },
+    {
+      "Name": "Division",
+      "ExportIndex": 9,
+      "ColumnWidth": 35,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Division"
+    },
+    {
+      "Name": "L4 Manager",
+      "ExportIndex": 10,
+      "ColumnWidth": 35,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "dropL4Manager"
+    }
+  ]
+}

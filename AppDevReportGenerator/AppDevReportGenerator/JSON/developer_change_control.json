@@ -1,0 +1,257 @@
+{
+	"Name": "Developer Change Control",
+	"SourceFolder": "X:\\AppDev Report Generator\\Export",
+	"SourceFile": "change_control.xlsx",
+	"ExportFolder": "X:\\AppDev Report Generator\\Reports\\Excel",
+	"Enabled": true,
+	"HeaderBackground": "#FFA500",
+	"Stripe": "",
+	"Divider": "OutOfCycle",
+	"DividerBackground": "#FFFF00",
+	"FirstRowIndex": 3,
+  "Fields": [
+    {
+      "Name": "Rep",
+      "ExportIndex": 1,
+      "ColumnWidth": 35,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Rep"
+    },
+    {
+      "Name": "ServicePro #",
+      "ExportIndex": 2,
+      "ColumnWidth": 35,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Ref"
+    },
+    {
+      "Name": "Title",
+      "ExportIndex": 3,
+      "ColumnWidth": 35,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Title"
+    },
+    {
+      "Name": "Phase",
+      "ExportIndex": 5,
+      "ColumnWidth": 30,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Phase"
+    },
+    {
+      "Name": "Current Status",
+      "ExportIndex": -1,
+      "ColumnWidth": 30,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Status"
+    },
+    {
+      "Name": "Out Of Cycle",
+      "ExportIndex": 4,
+      "ColumnWidth": 15,
+      "DataType": "bool",
+      "NullValue": "No",
+      "HAlign": "center",
+      "ExportName": "OutOfCycle"
+    },
+    {
+      "Name": "1st Reviewer",
+      "ExportIndex": 7,
+      "ColumnWidth": 30,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Reviewer1"
+    },
+    {
+      "Name": "1st Review",
+      "ExportIndex": 8,
+      "ColumnWidth": 30,
+      "DataType": "date",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Reviewed1"
+    },
+    {
+      "Name": "2nd Reviewer",
+      "ExportIndex": 9,
+      "ColumnWidth": 30,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Reviewer2"
+    },
+    {
+      "Name": "2nd Review",
+      "ExportIndex": 10,
+      "ColumnWidth": 30,
+      "DataType": "date",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Reviewed2"
+    },
+    {
+      "Name": "Approved",
+      "ExportIndex": 17,
+      "ColumnWidth": 30,
+      "DataType": "date",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Approved"
+    },
+    {
+      "Name": "Release Date",
+      "ExportIndex": 6,
+      "ColumnWidth": 30,
+      "DataType": "date",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Release"
+    },
+    {
+      "Name": "Prioritization Type",
+      "ExportIndex": -1,
+      "ColumnWidth": 25,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "PT"
+    },
+    {
+      "Name": "QA Resource",
+      "ExportIndex": 11,
+      "ColumnWidth": 35,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "QA"
+    },
+    {
+      "Name": "QA Approved",
+      "ExportIndex": 12,
+      "ColumnWidth": 30,
+      "DataType": "date",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "QAReviewed"
+    },
+    {
+      "Name": "UAT Resource",
+      "ExportIndex": 13,
+      "ColumnWidth": 35,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "UAT"
+    },
+    {
+      "Name": "UAT Approved",
+      "ExportIndex": 14,
+      "ColumnWidth": 30,
+      "DataType": "date",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "UATReviewed"
+    },
+    {
+      "Name": "OpCon Resource",
+      "ExportIndex": -1,
+      "ColumnWidth": 35,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "OpCon"
+    },
+    {
+      "Name": "OpCon Approved",
+      "ExportIndex": -1,
+      "ColumnWidth": 30,
+      "DataType": "date",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "OpConReviewed"
+    },
+    {
+      "Name": "Jobs",
+      "ExportIndex": -1,
+      "ColumnWidth": 60,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Jobs"
+    },
+    {
+      "Name": "PowerOns",
+      "ExportIndex": -1,
+      "ColumnWidth": 60,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "PowerOns"
+    },
+    {
+      "Name": "Help Files",
+      "ExportIndex": -1,
+      "ColumnWidth": 60,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Help"
+    },
+    {
+      "Name": "Letter Files",
+      "ExportIndex": -1,
+      "ColumnWidth": 60,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Letter"
+    },
+    {
+      "Name": "Remote PC Files",
+      "ExportIndex": -1,
+      "ColumnWidth": 60,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Remote"
+    },
+    {
+      "Name": "Special Instructions",
+      "ExportIndex": 16,
+      "ColumnWidth": 40,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Instructions"
+    },
+    {
+      "Name": "Percent Complete",
+      "ExportIndex": 15,
+      "ColumnWidth": 15,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Whole Ticket Percentage Complete"
+    },
+    {
+      "Name": "Approver",
+      "ExportIndex": 16,
+      "ColumnWidth": 15,
+      "DataType": "string",
+      "NullValue": "",
+      "HAlign": "center",
+      "ExportName": "Approval"
+    }
+  ]
+}
