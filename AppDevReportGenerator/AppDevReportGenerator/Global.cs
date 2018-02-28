@@ -1,16 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Media;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
+﻿using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using Excel = Microsoft.Office.Interop.Excel;
 using System.Diagnostics;
-using System.Reflection;
 
 namespace AppDevReportGenerator
 {
